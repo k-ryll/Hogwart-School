@@ -37,7 +37,7 @@ body{
 }
 
 .header-image {
-    width: 130px; /* Adjust width as needed */
+    max-width: 120px; 
 
 }
 
@@ -57,3 +57,24 @@ a:hover{
 }
 html {
     scroll-padding-top: 75px;}
+    
+@media (max-width: 991.98px) {
+    
+    .ul-lt {
+        margin: 0 !important; 
+    }
+    
+    .ul-lt a, .ul-lt li {
+        width: 100%;
+        margin: 2px 0;
+    }
+
+    .ul-lt a:hover {
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .dropdown {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
