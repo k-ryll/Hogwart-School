@@ -1,0 +1,59 @@
+:root {
+    --clr-primary: linear-gradient(#00001B, #5050ad) ;
+    --clr-accent: linear-gradient( #2c345e,  #0c0931) ;
+    --clr-secondary: #242633;
+    --ff-original: "adobe-garamond-pro", serif;
+    --fw-regular: 400;
+    --fw-semi-bold: 400;
+    --fw-bold: 400;
+}
+
+.bg-clr-primary{
+    background-image: var(--clr-primary);
+}
+
+.bg-clr-accent{
+    background-image: var(--clr-accent);
+}
+
+.fw-regular{
+    font-weight: var(--fw-regular);
+}
+
+.fw-semi-bold{
+    font-weight: var(--fw-semi-bold);
+}
+
+.fw-bold{
+    font-weight: var(--fw-bold);
+}
+
+body{
+    font-family: var(--ff-original);
+}
+
+.ul-lt{
+    list-style: none;
+}
+
+.header-image {
+    width: 130px; /* Adjust width as needed */
+
+}
+
+nav ul a:hover{
+    background-color: var(--clr-secondary);
+    color: white;
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+html {
+    scroll-padding-top: 75px;}
